@@ -2,17 +2,27 @@
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+div.mdl-layout_drawer-button{
+  position: fixed;
 }
 body{
   text-align: center;
+  top: 50px;
+}
+.resume-container{
+  margin-top: 50px;
 }
 .landing-grid {
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-
-  top: 0;
   left: 0;
 
 }
@@ -20,7 +30,10 @@ body{
 .projects-grid {
   display: flex;
 }
-
+.projects-head{
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
 /* Resume Page css */
 .resume-right-col {
   background: #27221F;
@@ -117,14 +130,11 @@ body{
 .about-me{
   text-align: center;
   width: 50%;
-
+  justify-content: space-around;
 }
 .about-me-main{
   text-align: center;
-  justify-content: center;
-}
-footer{
-  margin-top: -10px;
+  justify-content: space-between;
 }
 .about-me-body{
   height: 100%;
