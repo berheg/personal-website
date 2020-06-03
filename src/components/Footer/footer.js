@@ -9,7 +9,7 @@ class Footer extends Component {
           <ul class="ft-legal-list">
             <li><a href="#">Terms &amp; Conditions</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li>&copy; 2019 Copyright Nowrap Inc.</li>
+            <li>&copy; 2020 Copyright Nowrap Inc.</li>
           </ul>
         </section>
       </footer>
