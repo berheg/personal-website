@@ -40,7 +40,7 @@ class Resume extends Component {
             </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>Copenhagen, Denmark</p>
             <h5>Phone</h5>
             <p>(+45) 31877717</p>
             <h5>Email</h5>
