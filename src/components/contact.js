@@ -14,7 +14,14 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+               Three-year professional experience in software programming
+               and testing using Visual Basic.Net, Java, C#, C++ and
+               System Administrator. I have been studying Danish since
+               2014 and working in Service Sector. I have taken different
+               courses in 2018 in Digital Analytics, Digital Marketing,
+               python, CSS, html and JavaScript.
+             </p>
 
           </Cell>
           <Cell col={6}>
