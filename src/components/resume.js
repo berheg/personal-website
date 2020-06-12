@@ -14,7 +14,7 @@ class Resume extends Component {
     "Develop Restful Api using Node.js and packages " +
     "Express, nodemon, body-parser, MySql, webpack, " +
     "dotenv, and morgan.";
-    const workDescriptionSecond = "Studying Danish \ Feasibility study of private business \ Solving problems as new expat "
+    const workDescriptionSecond = "Studying Danish  Feasibility study of private business  Solving problems as new expat "
     return(
       <div className="resume-container">
         <Grid>
