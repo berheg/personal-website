@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import Footer from './Footer/footer';
 import githubUserSearchImage from '../assets/githubUserSearch.png';
-import ImgurImage from '../assets/Imgur.png';
+//import ImgurImage from '../assets/Imgur.png';
 import signupFirebaseImage from '../assets/signupFirebase.png';
 import signupFormImage from '../assets/signupForm.png';
 
