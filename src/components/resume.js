@@ -23,7 +23,7 @@ class Resume extends Component {
               <img
                 src={profileImage}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '200px', borderRadius: '50%'}}
                  />
             </div>
 
@@ -123,9 +123,16 @@ class Resume extends Component {
                     />
                     <Skills
                       skill="React"
-                      progress={75}
-                      />
-
+                      progress={85}
+                    />
+                    <Skills
+                      skill="Git"
+                      progress={100}
+                    />
+                    <Skills
+                      skill="Github"
+                      progress={100}
+                    />
 
           </Cell>
           <Cell className = "footer" col ={12}>
