@@ -21,9 +21,8 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${githubUserSearchImage}) center / cover`}} >React Project #1</CardTitle>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="">GitHub</Button>
+              <Button colored href="https://berheg.github.io/githubSearch/">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -34,9 +33,8 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${signupFirebaseImage}) center / cover`}} >React Project #2</CardTitle>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/berheg/Firebase">GitHub</Button>
+              <Button colored href="http://berheg.github.io/signUpFirebase">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -48,7 +46,6 @@ class Projects extends Component {
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${signupFormImage}) center / cover`}} >React Project #3</CardTitle>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
