@@ -8,6 +8,7 @@ import signupFormImage from '../assets/signupForm.png';
 import fastPressAppImage from '../assets/fast-press-app.png';
 import gifySearchAppImage from '../assets/gify-search-app.png';
 import weatherAppImage from '../assets/weather-app.png';
+import mealSharingImage from '../assets/mealSharing.png';
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -60,6 +61,7 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
+        <div>
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -119,6 +121,20 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        <div>
+        {/* Project 6 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
+      </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
@@ -126,7 +142,19 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is NodeJS</h1></div>
+        <div>
+        {/* Project 6 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
       )
     }else if(this.state.activeTab === 4) {
       return (
