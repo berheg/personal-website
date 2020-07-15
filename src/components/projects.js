@@ -9,6 +9,7 @@ import fastPressAppImage from '../assets/fast-press-app.png';
 import gifySearchAppImage from '../assets/gify-search-app.png';
 import weatherAppImage from '../assets/weather-app.png';
 import mealSharingImage from '../assets/mealSharing.png';
+import todoListImage from '../assets/todolist.png';
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -50,6 +51,17 @@ class Projects extends Component {
             <CardActions border>
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 4 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${todoListImage}) center / cover`}} >React Project #3</CardTitle>
+            <CardActions border>
+              <Button colored href="https://github.com/berheg/hyf-homework/tree/master/react/week2/my-app">GitHub</Button>
+              <Button colored href="https://berheg.github.io/my-app">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
