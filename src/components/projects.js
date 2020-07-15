@@ -147,7 +147,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
           <CardActions border>
-            <Button colored>GitHub</Button>
+            <Button colored href="https://github.com/berheg/MealSharing">GitHub</Button>
             <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -158,7 +158,19 @@ class Projects extends Component {
       )
     }else if(this.state.activeTab === 4) {
       return (
-        <div><h1>This is MySql</h1></div>
+        <div>
+          {/* Project 6 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
+            <CardActions border>
+              <Button colored href="https://github.com/berheg/MealSharing">GitHub</Button>
+              <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     }
   }
