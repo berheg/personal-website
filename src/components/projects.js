@@ -138,8 +138,8 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+            <Button colored href="https://github.com/berheg/MealSharing">GitHub</Button>
+            <Button colored href="">Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -160,7 +160,7 @@ class Projects extends Component {
           <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
           <CardActions border>
             <Button colored href="https://github.com/berheg/MealSharing">GitHub</Button>
-            <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+            <Button colored href="">Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -176,7 +176,7 @@ class Projects extends Component {
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${mealSharingImage}) center / cover`}} ></CardTitle>
             <CardActions border>
               <Button colored href="https://github.com/berheg/MealSharing">GitHub</Button>
-              <Button colored href="https://berheg.github.io/javascript/javascript2/week3/fastPress/index.html">Live Demo</Button>
+              <Button colored href="">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
