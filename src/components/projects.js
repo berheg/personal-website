@@ -150,7 +150,20 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${ImgurImage}) center / cover`}} >HTML/JavaScript #1</CardTitle>
+            <CardActions border>
+              <Button colored href="">GitHub</Button>
+              <Button colored href="">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
