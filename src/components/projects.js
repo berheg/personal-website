@@ -3,6 +3,8 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, 
 import Footer from './Footer/footer';
 import githubUserSearchImage from '../assets/githubUserSearch.png';
 import ImgurImage from '../assets/Imgur.png';
+import ReactNativeDailyWorkPlanImage from '../assets/react-native-dailyworkplan.png';
+import AngularTodoListImage from '../assets/angular-todo-list.png';
 import signupFirebaseImage from '../assets/signupFirebase.png';
 import signupFormImage from '../assets/signupForm.png';
 import fastPressAppImage from '../assets/fast-press-app.png';
@@ -71,7 +73,7 @@ class Projects extends Component {
 
 
       )
-    } else if(this.state.activeTab === 1) {
+    } else if(this.state.activeTab === 2) {
       return (
         <div>
         <div className="projects-grid">
@@ -148,13 +150,13 @@ class Projects extends Component {
       </div>
       </div>
       )
-    } else if(this.state.activeTab === 2) {
+    } else if(this.state.activeTab === 1) {
       return (
         <div>
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${ImgurImage}) center / cover`}} >HTML/JavaScript #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${ReactNativeDailyWorkPlanImage}) center / cover`}} >HTML/JavaScript #1</CardTitle>
             <CardActions border>
               <Button colored href="">GitHub</Button>
               <Button colored href="">Live Demo</Button>
@@ -164,8 +166,28 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        </div>
       )
-    } else if(this.state.activeTab === 3) {
+    }
+    else if(this.state.activeTab === 3) {
+      return (
+        <div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${AngularTodoListImage}) center / cover`}} >HTML/JavaScript #1</CardTitle>
+            <CardActions border>
+              <Button colored href="">GitHub</Button>
+              <Button colored href="">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+        </div>
+      )
+  }else if(this.state.activeTab === 4) {
       return (
         <div>
         {/* Project 6 */}
@@ -181,7 +203,7 @@ class Projects extends Component {
         </Card>
       </div>
       )
-    }else if(this.state.activeTab === 4) {
+    }else if(this.state.activeTab === 5) {
       return (
         <div>
           {/* Project 6 */}
@@ -207,6 +229,7 @@ class Projects extends Component {
       <div className="projects-head">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
+          <Tab>React-Native</Tab>
           <Tab>HTML-CSS/JavaScript</Tab>
           <Tab>Angular</Tab>
           <Tab>NodeJS</Tab>
