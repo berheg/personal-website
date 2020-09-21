@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88a0f63fe6dc8f94d63604413457d406",
+    "revision": "9ac40c53accb9d49c087221f213c4c70",
     "url": "/personal-website/index.html"
   },
   {
-    "revision": "b1f13c12fcd853690e47",
+    "revision": "bd8c80d0e991cff5a3d7",
     "url": "/personal-website/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "973bcdc163d746d44338",
-    "url": "/personal-website/static/css/main.ba13ac7f.chunk.css"
+    "revision": "4164eedf51cb1d8a343f",
+    "url": "/personal-website/static/css/main.8ddb8026.chunk.css"
   },
   {
-    "revision": "b1f13c12fcd853690e47",
-    "url": "/personal-website/static/js/2.587ee352.chunk.js"
+    "revision": "bd8c80d0e991cff5a3d7",
+    "url": "/personal-website/static/js/2.5e8e365a.chunk.js"
   },
   {
     "revision": "63ba80af47535c5571926b75b8de9b89",
-    "url": "/personal-website/static/js/2.587ee352.chunk.js.LICENSE.txt"
+    "url": "/personal-website/static/js/2.5e8e365a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "973bcdc163d746d44338",
-    "url": "/personal-website/static/js/main.18ba9ddc.chunk.js"
+    "revision": "4164eedf51cb1d8a343f",
+    "url": "/personal-website/static/js/main.01048b61.chunk.js"
   },
   {
     "revision": "2eb385104348b4d09517",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8af7b0f382257daaa8d9ed8fea72aeb9",
     "url": "/personal-website/static/media/Imgur.8af7b0f3.png"
+  },
+  {
+    "revision": "cfe613b0c37090bee886669d9446862c",
+    "url": "/personal-website/static/media/angular-todo-list.cfe613b0.png"
   },
   {
     "revision": "6b9c93b58c3f946c94be47a8f1627060",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e150a44b0b741188610f390baade7787",
     "url": "/personal-website/static/media/mealSharing.e150a44b.png"
+  },
+  {
+    "revision": "a6950b4f68e49c5342c14a3eaff0978f",
+    "url": "/personal-website/static/media/react-native-dailyworkplan.a6950b4f.png"
   },
   {
     "revision": "40c63afa7cc96592502984fe65b4fd4b",
